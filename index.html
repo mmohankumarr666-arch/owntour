@@ -90,28 +90,43 @@
         <div id="detailContent" class="detail-layout"></div>
     </div>
 
-    <footer>
-    <div style="font-family: 'Lexend'; font-size: 1.5rem; color: #fff; margin-bottom: 15px;">OWN<span>TOUR</span></div>
-    <div style="margin-bottom: 25px;">
-        <a href="https://www.instagram.com/your_username/" target="_blank" class="social-link">INSTAGRAM</a>
-        
-        <a href="https://www.facebook.com/your_page_name/" target="_blank" class="social-link">FACEBOOK</a>
-        
+<footer style="background: var(--dark); color: white; padding: 60px 10% 30px; text-align: center; margin-top: 50px; border-top: 5px solid var(--gold);">
+    <div style="font-family: 'Lexend'; font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 10px;">
+        OWN<span style="color: var(--gold);">TOUR</span>
+    </div>
+    <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 30px; max-width: 400px; margin-left: auto; margin-right: auto;">
+        Premium Boutique Road Trips. <br>Exclusively serving families in Salem.
+    </p>
+
+    <div style="margin-bottom: 30px; display: flex; flex-direction: column; gap: 10px;">
+        <a href="tel:+91XXXXXXXXXX" style="color: var(--white); text-decoration: none; font-weight: 600; font-size: 1.1rem;">
+            📞 +91 XXXXX XXXXX
+        </a>
+        <a href="mailto:owntoursalem@gmail.com" style="color: var(--gold); text-decoration: none; font-weight: 600; font-size: 1rem;">
+            ✉️ owntoursalem@gmail.com
+        </a>
+    </div>
+
+    <div style="margin-bottom: 40px; display: flex; justify-content: center; gap: 20px;">
+        <a href="https://instagram.com/your_handle" target="_blank" class="social-link">INSTAGRAM</a>
+        <a href="https://facebook.com/your_page" target="_blank" class="social-link">FACEBOOK</a>
         <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="social-link">WHATSAPP</a>
     </div>
-    <div style="font-size: 0.7rem; opacity: 0.4;">
-        © 2026 OWN TOUR SALEM. All packages include fuel, toll, and driver bata.
+
+    <div style="font-size: 0.7rem; opacity: 0.4; border-top: 1px solid #333; padding-top: 20px;">
+        © 2026 OWN TOUR SALEM. All rights reserved. <br>
+        All packages include private SUV, fuel, tolls, and driver fees.
     </div>
 </footer>
     <script>
         const tours = {
             ooty: {
                 id: 'ooty', title: "Ooty: The Victorian Nilgiris", price: 27000, img: "images/ooty.jpg",
-                hotelImg: "images/lymond-house-ooty.jpg", 
-                stayVibe: "Lymond House Victorian Mansion",
-                stayDesc: "A restored 1800s estate with sprawling private lawns, antique interiors, and cozy fireplaces.",
+                hotelImg: "images/ooty-hotel.jpg", 
+                stayVibe: "Delightz inn Resort",
+                stayDesc: "A Tranquil Escape to the Heart of NIlgiris.",
                 itinerary: [
-                    { day: "DAY 01: THE UNESCO SECRET & ASCENT", acts: [["06:00 AM", "Premium Pickup from your Salem residence in a private, sanitized Ertiga SUV."], ["10:00 AM", "The UNESCO Toy Train Experience: We secure your seats on the historic line."], ["02:00 PM", "Check-in at Lymond House. A Victorian-era mansion surrounded by lush gardens."], ["05:00 PM", "Evening tea on the mansion lawn followed by a walk through the Upper Bazaar."]] },
+                    { day: "DAY 01: THE UNESCO SECRET & ASCENT", acts: [["06:00 AM", "Premium Pickup from your Salem residence in a private, sanitized Ertiga SUV."], ["10:00 AM", "The UNESCO Toy Train Experience: We secure your seats on the historic line."], ["02:00 PM", "Check-in at Delightz inn Resort. A unique family friendly hotel which has been in hearts of families."], ["05:00 PM", "Evening tea on the mansion lawn followed by a walk through the Upper Bazaar."]] },
                     { day: "DAY 02: PEAKS & COLONIAL TEA TASTING", acts: [["08:30 AM", "Freshly prepared home-style breakfast in the heritage dining hall."], ["10:30 AM", "Visit Doddabetta Peak (8,650 ft) for a 360-degree view, followed by the Tea Museum."], ["04:00 PM", "Private Tea Tasting Session: Sample 5 varieties of Nilgiri tea on the veranda."]] },
                     { day: "DAY 03: MOVIE SCENICS & RETURN", acts: [["09:30 AM", "Explore the Pykara Lake and the legendary Pine Forest (shooting spot)."], ["02:00 PM", "Depart Ooty via the scenic 36-hairpin bend road."], ["08:00 PM", "Safe doorstep drop-off at your home in Salem."]] }
                 ],
@@ -119,10 +134,10 @@
             },
             munnar: {
                 id: 'munnar', title: "Munnar: Above the Clouds Glamping", price: 35000, img: "images/munnar.jpg",
-                hotelImg: "images/munnar-hotel.jpg", stayVibe: "Luxury River-View Tents",
+                hotelImg: "images/munnar-hotel.jpg", stayVibe: "Luxury Rock House Cabin",
                 stayDesc: "High-end glamping next to a natural mountain stream. Nature without luxury sacrifice.",
                 itinerary: [
-                    { day: "DAY 01: INTO THE TEA GARDENS", acts: [["05:00 AM", "Early morning departure from Salem to witness the Western Ghats transition."], ["01:00 PM", "Check-in at Ela Ecoland Nature Retreat. Boutique Luxury Tent next to a river."], ["04:00 PM", "Relaxation time: Explore the private waterfall located inside the property."]] },
+                    { day: "DAY 01: INTO THE TEA GARDENS", acts: [["05:00 AM", "Early morning departure from Salem to witness the Western Ghats transition."], ["01:00 PM", "Check-in at Ela Ecoland Nature Retreat. Boutique Luxury Room next to a river."], ["04:00 PM", "Relaxation time: Explore the private waterfall located inside the property."]] },
                     { day: "DAY 02: THE HIGH-ALTITUDE ADVENTURE", acts: [["08:30 AM", "The Waterfall Breakfast: Breakfast served near the natural stream for a unique vibe."], ["10:30 AM", "Visit Eravikulam National Park to spot the rare Nilgiri Tahr."], ["03:00 PM", "Drive to Mattupetty Dam and Echo Point for private photography in the tea valleys."]] },
                     { day: "DAY 03: THE SECRET SUNRISE SAFARI", acts: [["05:30 AM", "Private 4x4 Jeep Safari: We take you to a 'Secret Viewpoint' for the sunrise."], ["11:30 AM", "Visit a century-old Spice Plantation for a guided walk."], ["09:00 PM", "Return arrival at your doorstep in Salem."]] }
                 ],
